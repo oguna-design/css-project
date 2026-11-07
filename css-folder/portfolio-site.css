@@ -121,7 +121,7 @@ header nav a {
    STAGE 6 — About (#about): portrait + skills list
    --------------------------------------------------------- */
 #about img {
-  width: 180px;
+  width: 300px;
   height: auto;
   border-radius: 16px;
   margin-top: 8px;
