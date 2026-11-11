@@ -19,20 +19,16 @@ body {
   line-height: 1.6;
 }
 
-/* ---------------------------------------------------------
-   STAGE 1 — Page layout + section spacing
-   --------------------------------------------------------- */
+/* STAGE 1 — Page layout + section spacing */
 header,
 main,
 footer {
   max-width: 900px;
-  margin: 0 auto;
-  padding-left: 24px;
-  padding-right: 24px;
+  margin-inline: auto;
+  padding-inline: 24px;
 }
 section {
-  padding-top: 64px;
-  padding-bottom: 64px;
+  padding-block: 64px;
 }
 /* ---------------------------------------------------------
    STAGE 2 — Typography (headings + paragraphs)
@@ -74,7 +70,7 @@ header nav ul {
 }
 header nav li {
   display: inline-block;
-  margin-right: 18px;
+  margin-inline-end: 18px;
 }
 header nav a {
   text-decoration: none;
@@ -160,7 +156,7 @@ header nav a {
   width: 100%;
   max-width: 560px;
   border-collapse: collapse;
-  margin-top: 8px;
+  margin-block: 8px;
 }
 #resume caption {
   text-align: left;
